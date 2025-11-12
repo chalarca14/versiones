@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validación de Email</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input { padding: 5px; }
+    button { padding: 5px 10px; margin-left: 5px; }
+    ul { margin-top: 20px; }
+    li.valid { color: green; }
+    li.invalid { color: red; }
+  </style>
+</head>
+<body>
+
+  <h1>Validación de Email</h1>
+  <input type="text" id="emailInput" placeholder="Escribe tu correo">
+  <button id="validateBtn">Validar</button>
+
+  <h2>Historial</h2>
+  <ul id="historyList"></ul>
+
+  <script src="validacion.js"></script>
+</body>
+</html>
