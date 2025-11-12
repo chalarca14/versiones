@@ -1,0 +1,3 @@
+Tarea 4: Refactorización
+1. Mejora el código en services/api.js
+2. Haz commit: refactor(api): extract error handling logic
